@@ -1,0 +1,9 @@
+{
+	"name": "adf-pokemontcg",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d5477d81-c23d-46f6-8d8f-b370ff0cd657",
+		"tenantId": "ba5c746b-84c8-4b2a-a738-f040fa1ead4c"
+	}
+}
