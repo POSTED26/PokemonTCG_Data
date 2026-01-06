@@ -1,0 +1,12 @@
+{
+	"name": "pokemon_raw_bronze",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSynapseArtifacts",
+		"typeProperties": {
+			"endpoint": "https://raw-bronze.dev.azuresynapse.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/90b6b3ab-b4b6-4b3b-9e26-c930386b681a/resourceGroups/PokemonTCG/providers/Microsoft.Synapse/workspaces/raw-bronze"
+		}
+	}
+}
