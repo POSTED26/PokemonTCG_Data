@@ -1,0 +1,96 @@
+{
+	"name": "pokemon_cards",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLatePokemon",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "cards.csv",
+				"fileSystem": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "id",
+				"type": "String"
+			},
+			{
+				"name": "name",
+				"type": "String"
+			},
+			{
+				"name": "supertype",
+				"type": "String"
+			},
+			{
+				"name": "hp",
+				"type": "String"
+			},
+			{
+				"name": "num_attacks",
+				"type": "String"
+			},
+			{
+				"name": "attacks",
+				"type": "String"
+			},
+			{
+				"name": "weaknesses",
+				"type": "String"
+			},
+			{
+				"name": "retreat_cost",
+				"type": "String"
+			},
+			{
+				"name": "set_id",
+				"type": "String"
+			},
+			{
+				"name": "artist",
+				"type": "String"
+			},
+			{
+				"name": "national_pokedex_numbers",
+				"type": "String"
+			},
+			{
+				"name": "tcgplayer_ds",
+				"type": "String"
+			},
+			{
+				"name": "normal_price",
+				"type": "String"
+			},
+			{
+				"name": "holofoil_price",
+				"type": "String"
+			},
+			{
+				"name": "reverse_holofoil_price",
+				"type": "String"
+			},
+			{
+				"name": "legalities_standard",
+				"type": "String"
+			},
+			{
+				"name": "legalities_expanded",
+				"type": "String"
+			},
+			{
+				"name": "legalities_unlimited",
+				"type": "String"
+			}
+		]
+	}
+}
